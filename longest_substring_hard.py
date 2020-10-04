@@ -3,6 +3,8 @@
 #Sample input, string = "clementisacap"
 #Sample output, string = "mentisac"
 
+#O(n) time | O(min(n, a)) space
+
 def longestSubstringWithoutDuplication(string):
     lastSeen = {}
     longest = [0, 1]
